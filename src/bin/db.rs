@@ -32,7 +32,7 @@ fn main() {
                 println!("COMPLETED");
                 break;
             }
-            _ => panic!("unexpected value from resume"),
+            x => panic!("Unexpected value from resume: {x:?}"),
         }
     }
     // app.run();
